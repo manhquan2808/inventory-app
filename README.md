@@ -53,7 +53,32 @@ Each product or raw material through each process is assigned a QR code. This QR
 
 ### Technologies Used
 
-- **Laravel**: PHP framework for building web applications quickly and efficiently.
-- **MySQL**: Relational database management system used to store system data.
-- **Livewire**: Laravel library for building interactive user interfaces with minimal JavaScript.
-- **AbstractAPI**: External service used for email verification to ensure accurate contact information.
+
+### Technologies Used
+
+- **Laravel**
+  - **Purpose**: Laravel is a powerful PHP framework used to build the core functionality of the web application.
+  - **Usage**: 
+    - **Backend Development**: Handles the server-side logic, including data processing, business rules, and interactions with the database.
+    - **Routing**: Manages the application's routes and directs HTTP requests to the appropriate controllers.
+    - **Authentication**: Provides built-in features for user authentication and authorization.
+    - **MVC Architecture**: Implements the Model-View-Controller pattern to organize code efficiently and maintain separation of concerns.
+
+- **MySQL**
+  - **Purpose**: MySQL is used as the relational database management system to store and manage all the data within the application.
+  - **Usage**: 
+    - **Data Storage**: Stores structured data including user information, raw material details, production requests, and inventory records.
+    - **Queries**: Handles complex queries to retrieve and manipulate data as needed by the application.
+    - **Data Integrity**: Ensures data consistency and integrity with transactions and constraints.
+
+- **Livewire**
+  - **Purpose**: Livewire is a Laravel library used to create dynamic, interactive user interfaces without needing extensive JavaScript.
+  - **Usage**: 
+    - **Component-Based Development**: Allows the creation of reusable components that interact with the server-side logic seamlessly.
+    - **State Management**: Manages the state of UI components and reflects changes without full page reloads.
+
+- **AbstractAPI**
+  - **Purpose**: AbstractAPI is an external service used for email verification to ensure the validity and deliverability of email addresses.
+  - **Usage**: 
+    - **Email Verification**: Validates email addresses provided by users during registration or updates to prevent errors and ensure reliable communication.
+    - **Data Cleaning**: Helps maintain a clean and accurate user database by identifying invalid or risky email addresses.
