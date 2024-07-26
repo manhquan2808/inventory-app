@@ -53,9 +53,6 @@ Each product or raw material through each process is assigned a QR code. This QR
 
 ### Technologies Used
 
-
-### Technologies Used
-
 - **Laravel**
   - **Purpose**: Laravel is a powerful PHP framework used to build the core functionality of the web application.
   - **Usage**: 
